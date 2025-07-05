@@ -1,0 +1,1617 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "fc12e168-0769-4975-a20a-dfeaae6f7da2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello World\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('Hello World')\n",
+    "#print hello world"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "c66f547c-a650-459f-b7a5-3e08d6a1f6d4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 1 #숫자 자료형\n",
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "cf725861-d24f-481e-b8ee-a58acc5d6feb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+    "b = \"1\"\n",
+    "print(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "ff7c8144-9751-44d9-b867-870342f6ff36",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "e338830f-016f-4943-9864-00e161c6dd80",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "311400b3-f1b5-4c8b-bbf3-230754ca6ae3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 29,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "fb7d933f-19cd-4076-83c1-5e9b87220376",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'1'"
+      ]
+     },
+     "execution_count": 30,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "str(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "7ea477bf-0efe-4150-9637-f16828bc5936",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "int(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "7e747bf8-3592-4ab3-bb9e-e6d7a53774ff",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# list\n",
+    "a = [1,2,3,4,5]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "0e1cb953-3820-4aad-b2a3-ae3578e7a71c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 33,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a[0] # index는 0부터 시작"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "6999dc33-348a-43fe-b729-dd499b5df99c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 5]"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "097bfbf7-332c-494d-a516-71b46d7eaae9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a[-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "5b10e410-c628-464e-a0ef-0e970f80a0aa",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a[4] = 7 #index안의 특정 값 수정할 수 있다"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "91c5224a-2e14-437e-b292-b081b271998a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 7]"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "607b14c3-21a4-45c0-a9a9-f5dbd679e107",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[2, 3]"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a[1:3] #마지막은 포함되지 않음"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "e3b47d6d-58ee-40a3-9b5c-09c37eddc358",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{1, 2, 3, 5, 6}\n"
+     ]
+    }
+   ],
+   "source": [
+    "#튜플은 수정,추가,삭제가 불가능하고 일반 괄호를 사용한다.\n",
+    "#세트는 중복된 값을 가질 수 없다. 중괄호를 사용한다. > 중복이 사라지고 순서대로 출력된다\n",
+    "s = {1,3,2,1,3,5,6,2}\n",
+    "print(s)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "dfa89704-3e7b-4beb-b0b7-d42d54d9c400",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'name': 'sa', 'age': 18}\n"
+     ]
+    }
+   ],
+   "source": [
+    "#딕셔너리는 콜론(:)으로 구분하고 중괄호를 사용한다.key 와 value 로 이루어져있다.\n",
+    "a = {'name':'sa','age':18}\n",
+    "print(a)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "f6c29707-85f1-4aae-abd4-818049f0328f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#연산\n",
+    "1+2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "3d747c09-43c8-493f-8db2-bd7c3d449128",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "-1"
+      ]
+     },
+     "execution_count": 40,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "1-2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "73810b44-21ac-4612-bf25-dfc272f7a646",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 41,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "1*2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "613374c7-7475-49b0-8f47-4a72dae49577",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0.5"
+      ]
+     },
+     "execution_count": 42,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "1/2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "018e4323-6359-4085-a90f-f20fd5ade08a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x = 1\n",
+    "y = 2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "cc70d12b-922e-4a5d-8a63-0bf8dfae802d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 45,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x+y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "607d3e77-05df-4a4a-b4f1-6726576ce2fb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0.6"
+      ]
+     },
+     "execution_count": 46,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "3/5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "34b95035-990a-4702-88b5-3f5d222de506",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0"
+      ]
+     },
+     "execution_count": 47,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "3//5 #3을 5로 나눈 몫"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "cadf1ee6-3084-4b78-a7f9-055ac86f0fec",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 48,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "3%5 #3을 5로 나눈 나머지"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "062da74f-b92a-4073-b106-8d199425f4e9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 49,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "2**3 #2의 3제곱 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "f857bf97-0af0-4d01-bd9a-2e53c1e5e603",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 50,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "2*2*2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "81206518-4a0a-4261-80b9-d762c740f03e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#문자도 연산이 가능하다"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "c9987a3e-1cfb-4e17-95db-ee62712e3f4d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ab'"
+      ]
+     },
+     "execution_count": 51,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'a'+'b'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5b2b102c-88db-423a-9e1d-ff503883f50a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#문자는 덧셈과 곱셈만 가능하다"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "d2b153d9-a573-4e27-bc8c-e35d754eee9c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'aaa'"
+      ]
+     },
+     "execution_count": 52,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'a'*3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "31b7d919-f5f9-46af-a5a9-899467eef4c0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    " #응용 연산\n",
+    "a = 0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "72edac0d-ea70-47ac-a034-9622f003fb2e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0"
+      ]
+     },
+     "execution_count": 54,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "366d7045-29a4-4e62-80b6-2e28516c0305",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a +1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "650aa975-bb71-4a74-b23b-104dc1433c92",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0"
+      ]
+     },
+     "execution_count": 56,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "980c6317-b177-43e8-b656-ca98bb48460e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = a+1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "e59952db-60ed-4b5a-b052-ec9fe3c04a09",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a += 1 #a에 1을 더한 값"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "30b0544f-8173-48c7-bc18-2ccfd917cdbf",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 61,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "af03be00-1569-4ac6-94f0-36c2b2648765",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = 1 #변수에 특정 값을 넣을때 변수에 무엇이 들어있는지 항상 신경써야함"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "61ab24e7-a4df-4618-8e45-f80e2b440de2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a는 양수입니다.\n"
+     ]
+    }
+   ],
+   "source": [
+    "#조건문 if / 조건문을 계속해서 추가할 수 있음\n",
+    "a = 1\n",
+    "if a > 0: #조건문과 반복문의 마지막에는 콜론이 사용됨\n",
+    "    print(\"a는 양수입니다.\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "6f2beece-19ee-492b-936d-f984b9a066dd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = 1\n",
+    "if a == 0: # True/False 여부에 따라 아래 수행 여부 결정\n",
+    "    print(\"a는 0입니다.\") "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "f6eaa096-d907-46b9-a820-fe49c0c6024a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = 1\n",
+    "if a < 0:\n",
+    "    print(\"a는 음수입니다.\") "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "5788bba1-57eb-485e-bf67-74d065418f79",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "id": "a189b042-ad70-4fd7-8fe1-4e7ce5fe2a48",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 67,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a >0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "e3ad8752-221b-47d6-ae21-9d92333a3b45",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 68,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a <0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "bafc7333-1977-42ec-a755-6f7d1990bf1c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 69,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a ==0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "017e2f27-c3cf-4e26-8728-4bc072c14a49",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 70,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a == 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "id": "fdab3b08-f7ed-4b3a-b736-4c1129e95bc7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a는 양수\n"
+     ]
+    }
+   ],
+   "source": [
+    "if a > 0:\n",
+    "    print(\"a는 양수\")\n",
+    "if a < 0:\n",
+    "    print('a는 음수')\n",
+    "if a == 0:\n",
+    "    print('a는 0')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9238c340-bf78-4ceb-8f43-14ed901b8543",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#else 기능 / 위도 아니고 아래도 아니라면 이것을 실행하라 > 묶음의 조건문 만들수있음 / 마지막 else는 위에 포함되지 않는 전부를 의미하기 때문에 조건문이 없다"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "id": "7a064e10-4987-4734-8db3-40db0d77efa2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a는 0\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 0\n",
+    "if a > 0:\n",
+    "    print(\"a는 양수\")\n",
+    "elif a < 0:\n",
+    "    print('a는 음수')\n",
+    "else:\n",
+    "    print('a는 0')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "df252803-f4c3-4ba4-81b3-a42d513985fb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#else 가 더욱 효율적 => 여러개의 조건이 있을경우 왠만하면 사용"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bff22c0e-6850-49ea-bab4-b5cf4e244ae9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#and , or로 조건문 묶어서 사용할 수 있음"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 81,
+   "id": "2d49052b-2cb3-431e-8445-7c01f9a997da",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a는 10이고 b는 20이다\n",
+      "a와b 둘 중 10과 같은 것이 있다\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 10\n",
+    "b = 20\n",
+    "if a == 10 and b == 20: #두 조건이 모두 맞아야 출력\n",
+    "    print('a는 10이고 b는 20이다')\n",
+    "\n",
+    "if a == 10 or b ==10: #두 조건 중 하나만 충족해도 출력\n",
+    "     print('a와b 둘 중 10과 같은 것이 있다')\n",
+    "    \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 89,
+   "id": "5cb4caa6-3840-4034-886f-a436b43638c4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "#while, for => 종료될 수 있는 알고리즘을 항상 넣어서 사용\n",
+    "\n",
+    "\n",
+    "cnt = 0\n",
+    "\n",
+    "while True:\n",
+    "    print(cnt)\n",
+    "    cnt += 1\n",
+    "    if cnt == 10:\n",
+    "        break\n",
+    "#반복문을 제어 -> break, continue"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 90,
+   "id": "9d64bd18-255a-4ba9-a9bb-1c975ba8fa2d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(0,10):#마지막은 포함되지 않은 범위 (10은 포함 x)\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 91,
+   "id": "15e34d00-13f6-48eb-a27a-6aa53f3c129d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in [1,2,3,4,5]: #리스트 안에 있는것을 반복 / 문자가 들어갈수도 있음\n",
+    "    print(i)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 92,
+   "id": "3bd675b2-bebf-46a7-9496-595602c4ba2f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "집\n",
+      "에\n",
+      "버\n",
+      "내\n",
+      "줘\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in [\"집\",\"에\",\"버\",\"내\",\"줘\"]: #i라는 변수는 for문 안에서만 사용하는 변수이다\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 93,
+   "id": "020ba79f-e62d-4b6c-af1f-53365638a315",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in [1,2,3,4,5]:\n",
+    "    print(i)  #들여쓰기의 의미 ->  for문 안에 포함되어있다 =>for문 안에서 실행\n",
+    "   "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 94,
+   "id": "0ead7f0b-af52-48c1-98d5-1f66f12a6b6e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "4\n",
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in [1,2,3,4,5]:\n",
+    "    if i == 3: #contiue를 통해 중간 단계를 넘어감\n",
+    "        continue\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 95,
+   "id": "a5808f74-d299-43fe-8a42-86d140685247",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in [1,2,3,4,5]:\n",
+    "    if i == 3:\n",
+    "        break\n",
+    "    print(i)\n",
+    "    #다중반복문 사용할 수 있음"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 107,
+   "id": "ead27ed9-01f2-4222-9543-13e4562e2485",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#함수\n",
+    "a = 'Hello World'\n",
+    "def plus_one(num): #함수를 정의하고 return을 쓰면 함수가 만들어짐\n",
+    "    result = num + 1\n",
+    "    return result #함수 안에있는 변수는 함수 안에서만 사용한다./밖에있는것은 함수 안에서 사용할 수 있다./함수의 내부와 외부를 잘 구분해야함"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 108,
+   "id": "7f2b730a-b10e-407c-a4a9-4090c129144f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4"
+      ]
+     },
+     "execution_count": 108,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "plus_one(3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0a5284f5-877e-42ef-bc52-0fe6a91fa59d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#함수 안에서 또 다른 함수를 사용할 수 있음(이중반복문)/\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 110,
+   "id": "e6cde361-8969-4b92-b3e0-3bbf03b7eb88",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def solution(n):\n",
+    "    answer = 0\n",
+    "    for i in range(n+1): #i는 어차피 n보다 작기때문에 이하라는 것을 따로 기입하지 않지만 이하이므로 1을 더한다.\n",
+    "        if i%2 == 0:\n",
+    "            answer += i\n",
+    "    return answer"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 112,
+   "id": "2cc43464-61af-44da-a999-fb28b09d9124",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c825515d-e457-4d1a-9184-b2157cc576a8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#클래스, 모듈"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 113,
+   "id": "fa9e2bb3-4db2-4352-811c-b7681e8d9dfe",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['.git',\n",
+       " '.ipynb_checkpoints',\n",
+       " '2025 07 05',\n",
+       " '2025.06.21',\n",
+       " 'anaconda',\n",
+       " 'ARGV',\n",
+       " 'data.csv',\n",
+       " 'data2.csv',\n",
+       " 'go_to_home.ipynb',\n",
+       " 'README.md',\n",
+       " 'test.py',\n",
+       " 'Untitled.ipynb',\n",
+       " 'Untitled1.ipynb',\n",
+       " 'Untitled2.ipynb']"
+      ]
+     },
+     "execution_count": 113,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import os #os라는 모듈을 불러오는것 \n",
+    "os. listdir()#현재 위치에 있는 파일들을 불러옴"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "963fc243-98e3-46e4-8a5e-47ac40ed29fa",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    " "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "58062c7b-56b4-4827-84cb-7b87ad4e95ce",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "96ef3cb4-46ca-40c4-9439-4e2f7261a0f4",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8aea62f4-63b8-44ea-888e-7bf8139791c8",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "287a0667-0b51-4e5c-86c2-f2def7dfedf7",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "189af178-58de-41b7-aca2-d690af4eba19",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4751706d-1099-40cb-9094-8549600e8307",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3e884d40-d102-4ecf-a6d2-1d24e1091f8b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "49c90b3e-c004-4b7b-9a4a-335281bf12c5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "67292df0-18f3-42d6-b00e-ab7e326a8211",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a0b62d68-6602-4964-b437-b20e0a0776c2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cf9db5a4-d164-4cf4-8a0f-59324399a95c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ef3de1fc-beb5-43b3-ba39-369dc7847bd9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9004698f-d1d3-4c78-be9e-481547a87a6e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "837ec448-1d98-49eb-a089-86ce32bc580c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d4fd6760-92b5-405e-9130-39363309e12c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "aa079780-4e68-4e47-871c-c17d8f6b7b0c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e789d234-47d3-4a5a-9e0e-cfad769d87e7",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a156ed74-dcff-4ee8-884c-4ccabdca2f0e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d4bb7ad9-0b9b-4b53-b68b-34dce4b9fa55",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "43b0bb0b-f463-42e0-9e0d-48365aee054f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "682fce5b-0c5f-4c23-a03c-5d8d3e0c77e5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8f18e33f-a650-4b61-b268-d365d3218291",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7fa611ae-9149-4b92-a84f-78b35214e11b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d60a53f8-99fa-458c-a9e3-058157aa3f98",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "55c60b94-aa37-4931-82b0-7ec7a82a3aef",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b6dec8ea-67a0-478c-9fd7-bfd39d597d18",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bca56d81-0417-4e70-997e-240a43fd48d9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bf4ff081-53cf-4f5e-abc0-4834e157f666",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f3f77b72-0e8b-406d-a25e-fc2556571c83",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5bc83c13-c473-402d-b3b6-8215f6ef0ab6",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e6d98120-a8e9-4df2-bc2d-851f043063bd",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "76ad836d-6001-4f23-924d-4d7cd230c7a7",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f9eec317-5577-4bf3-bbb2-faf2be487236",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e09e5432-9bcd-495d-98c2-9a113585eb89",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "658bb611-c0eb-41bd-aefd-e290640c20a2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "113b29bc-6cde-47af-a332-0c44e238aca2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f6a49aa5-db7b-465b-b01b-da38e677b839",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
